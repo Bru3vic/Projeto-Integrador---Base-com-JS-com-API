@@ -1,0 +1,217 @@
+
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet">
+        
+        <!-- Link para Javascrip - NAO EXCLUIR -->
+        <link rel="stylesheet" href="./styles/styles.css" />
+        <link rel="stylesheet" href="./styles/style2.css">
+        <script type="module" src="./scripts/product.js" defer></script>
+    
+    
+        <!-- Link para Javascrip - NAO EXCLUIR -->
+    
+    
+    
+        <title>VICTORIA'S</title>
+    </head>
+    
+    <body>
+
+      <!-- cabecalho -->
+    <header id="header">
+        <!-- barra de informacoes topo -->
+        <div class="header_info_bar">
+            <div class="containerinfo">
+                <p class="info_bar_text">Compre agora e receba em todo o Brasil!</p>
+            </div>
+        </div>
+
+        <!-- cabecalho principal -->
+        <div class="main_header">
+            <div class="containerprin">
+                <!-- logo da loja -->
+                <div class="logo_container">
+                <a href="./index.html"><img src="./images/logodaloja.png" alt="Logo loja VICTORIA's " class="logo"></a>    
+                </div>
+                <!-- barra de pesquisa -->
+                <div class="search_bar">
+                    <i class="bi bi-search"></i>
+                    <input type="text" placeholder="O que você procura?">
+                </div>
+                <!-- icones do cabecalho principal -->
+                <div class="header_icons">
+                   <a href="./checkout.html"><i class="bi bi-bag"></i></a> 
+                    <i class="bi bi-person" id="bi-person"></i>
+
+                </div>
+            </div>
+        </div>
+        <!-- navegacao categoria pelo icone  -->
+        <div class="categoria_icone">
+            <nav>
+                <i class="bi bi-list"></i>
+        </div>
+        </nav>
+
+        <!-- linha que divide banner e cabeçalho -->
+
+        <hr>
+
+
+<!-- Componente Pagina individual de Produtos -->
+    <main class="product main-content container">
+      <h2 class="product text-container page-title-small" id="product-category"></h2>
+      <div class="product text-container" id="product-title">
+        <h4>COD: 12345</h4>
+        <h3 class="product main-text">Furadeira e Parafusadeira a Bateria Smart Bosch com Carregador 10 Bits e Extensor Universal 12V 1/4" GSR 1000 Bivolt</h3>
+      </div>
+      <section class="product text-container">
+        <div id="product_page">
+          <div class="grid_col_1">
+
+
+           
+
+          </div>
+
+
+
+          <div class="grid_col_2">
+
+            <div class="product_price_container">
+              <h2>R$ 399,00</h2>
+              <h5>Ou em ate 10x sem juros de R$ 39,90 no cartão de credito</h5>
+              <div class="quantity">
+                <input type="number" name="quantity" id="quantity" value="1">
+                <button class="shop_btn">comprar</button>
+              </div>
+              
+            </div>
+
+            <div class="freight_container">
+              <form action="">
+                <label for="">Calcule seu frete</label>
+
+                <div class="container-flex">
+                  <input type="text" name="" id="" placeholder="Digite o cep da entrega">
+                  <button class="freight_ok">ok</button>
+                </div>
+               
+                 <p><a href="">Não sei meu cep</a></p> 
+               
+              </form>
+            </div>
+
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
+              </div>
+              <div class="pricing">
+                <h3>R$ 19,00</h3>
+                <p>Entrega em até 7 dias uteis</p>
+              </div>
+            </div>
+
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
+              </div>
+              <div class="pricing">
+                <h3>R$ 19,00</h3>
+                <p>Entrega em até 7 dias uteis</p>
+              </div>
+            </div>
+
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
+              </div>
+              <div class="pricing">
+                <h3>R$ 19,00</h3>
+                <p>Entrega em até 7 dias uteis</p>
+              </div>
+            </div>
+
+            <div class="freight_pricing container-flex">
+              <div class="radio">
+                <input type="radio" name="" id="">
+              </div>
+              <div class="pricing">
+                <h3>R$ 19,00</h3>
+                <p>Entrega em até 7 dias uteis</p>
+              </div>
+            </div>
+
+
+
+          </div>
+
+        </div>
+        
+      </section>
+
+
+      
+    </main>
+
+
+  
+<!-- rodape -->
+<footer>
+
+  <div class="container2">
+
+      <div class="rodape">
+          <div class="sobre-loja">
+          <a href="./sobrenos.html"><h2>Sobre a Loja</h2></a>    
+              <p>Informações sobre nossas joias</p>
+            <a href="./sobrenos.html"><p>Sobre nós</p></a> 
+            <a href="./faleconosco.html"><p>Fale conosco</p></a>  
+          </div>
+
+          <div class="rodape">
+              <div class="ajuda">
+              <a href="#"><h2>Ajuda</h2></a>    
+              <a href="#"> <p>Políticas de envio </p></a>   
+              <a href="#"><p>Dúvidas frequentes </p></a>    
+              <a href="./adm.html"><p>Administrador</p></a>    
+              <a href="#"><p>Peças com defeito?</p></a>    
+              </div>
+          </div>
+
+          <div class="rodape">
+              <div class="redes">
+                  <h2>Redes sociais</h2>
+                  <a href="#"><img src="./images/bandeiras/inta.png" alt="Icone Instagram"></a>
+                  <a href="#"><img src="./images/bandeiras/face.png" alt="Icone Facebook"></a>
+              </div>
+          </div>
+
+          <div class="rodape">
+              <div class="pagamento">
+                  <h2>Formas de pagamento</h2>
+                  <a href="#"><img src="./images/bandeiras/elo.png" alt="Bandeira cartão elo"></a> 
+                  <a href=""><img src="./images/bandeiras/hipercad.png" alt="Bandeira cartão hipercard"></a> 
+                  <a href="#"><img src="./images/bandeiras/visa.png" alt="Bandeira cartão visa"></a> 
+                  <a href="#"><img src="./images/bandeiras/pix.png" alt="Bandeira pix"></a>
+              </div>
+          </div>
+      </div>
+
+
+
+</footer>
+<!-- fim do rodape -->
+
+
+
